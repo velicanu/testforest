@@ -1,12 +1,4 @@
 #include "HiForestAnalysis/hiForest.h"
-// #include <TH1D.h>
-// #include <TFile.h>
-// #include <TCanvas.h>
-// #include <TRandom3.h>
-// #include <fstream>
-// #include <iostream>
-// #include <math.h>
-
 
 void testforest(string filename)
 {
