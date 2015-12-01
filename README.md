@@ -1,4 +1,4 @@
-testforest
+## testforest
 ==========
 To run you need to have either a link or a clone of HiForestAnalysis in this direcotry:
 
@@ -20,3 +20,13 @@ or in root
 ```c++
 root [0] .L testforest.C+
 ```
+
+## getentries
+run the following script to getentries of the tree
+```bash
+# to get all the entries of every tree in the forest, for consistency checking
+./getentries.sh <hiforest-file>
+# to get entries of the first tree (faster) if you know they are consistent and want the number fast 
+./getentries.sh <hiforest-file> 1
+```
+
