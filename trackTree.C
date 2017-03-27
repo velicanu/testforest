@@ -39,5 +39,17 @@ void trackTree::Loop()
       if (ientry < 0) break;
       nb = fChain->GetEntry(jentry);   nbytes += nb;
       // if (Cut(ientry) < 0) continue;
+      for (int itrk = 0 ; itrk < nTrk ; itrk++)
+      {
+	// here i'm looping through tracks
+      }
    }
+}
+
+
+int main ()
+{
+  trackTree * trk = new trackTree();
+  trk->Loop();
+  return 0;
 }
